@@ -8,9 +8,6 @@
 #ifndef CONSTANTS_H_
 #define CONSTANTS_H_
 #include <string>
-#include <vector>
-
-using namespace std;
 
 const std::string SOURCE_FILE 	= "source_file.txt";
 const std::string RESULTS_FILE 	= "results_file.txt";

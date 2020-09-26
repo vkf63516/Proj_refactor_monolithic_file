@@ -5,10 +5,10 @@
 * 		Author: Vishal
 */
 #include "../includes/utils.h"
-
+#include <vector>
 using namespace std;
 
-void sortData(const SORT_ORDER &mySortOrder,vector<process> &myProcesses){
+void sortData(const SORT_ORDER &mySortOrder, vector<process> &myProcesses){
 
 }
 

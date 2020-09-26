@@ -10,12 +10,12 @@
 #include "constants.h"
 
 
-void sortData(const SORT_ORDER &mySortOrder,vector<process> &myProcesses);
+void sortData(const SORT_ORDER &mySortOrder, std::vector<process> &myProcesses);
 
-process getNext(vector<process> &myProcesses);
+process getNext(std::vector<process> &myProcesses);
 
-int getSize(vector<process> &myProcesses);
+int getSize(std::vector<process> &myProcesses);
 
-int handleMissingData(vector<process> &myProcesses);
+int handleMissingData(std::vector<process> &myProcesses);
 
 #endif /* UTILS_H_ */
