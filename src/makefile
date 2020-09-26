@@ -14,7 +14,7 @@ utils.o: ../utils/utils.cpp ../includes/utils.h ../includes/constants.h
 	g++ $(CFLAGS) -c ../utils/utils.cpp
 	
 #TODO
-proj_refactor_file.o: proj_refactor_file.cpp ../includes/utils.h ../includes/constants.h ../includes/fileio.h
+proj_refactor_file.o: proj_refactor_file.cpp ../includes/constants.h ../includes/utils.h ../includes/fileio.h
 	g++ $(CFLAGS) -c proj_refactor_file.cpp
 
 #TODO type 'make clean' to remove myexe and all .o files	

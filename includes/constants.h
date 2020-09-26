@@ -8,6 +8,7 @@
 #ifndef CONSTANTS_H_
 #define CONSTANTS_H_
 #include <string>
+#include <vector>
 
 using namespace std;
 
